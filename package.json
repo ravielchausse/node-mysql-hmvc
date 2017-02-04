@@ -1,0 +1,33 @@
+{
+  "name": "NODE-MYSQL",
+  "version": "0.0.1",
+  "description": "NODE MYSQL H-MVC",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "bcryptjs": "^2.4.0",
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "express-validator": "^3.1.1",
+    "moment": "^2.14.1",
+    "morgan": "^1.7.0",
+    "mysql": "^2.13.0",
+    "nodemailer": "^2.6.4",
+    "socket.io": "^1.4.8",
+    "winston": "^2.3.1",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon index.js",
+    "debug": "node-devtools index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab:tedu/nodeserver.git"
+  }
+}
